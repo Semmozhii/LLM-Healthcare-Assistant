@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Model files
+*.safetensors
+*.bin
+*.pt
+*.pth/
+
+# Hugging Face cache
+.cache/
+models/
+
+# Secrets
+.env
+secrets.toml
+
+# Uploaded patient files
+uploads/
+patient_data/
+
+# System files
+.DS_Store
+Thumbs.db
